@@ -1,0 +1,26 @@
+7. Criação do gráfico de pizza
+
+plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=140)
+plt.title('graficos personalizados')
+plt.axis('equal')
+plt.show
+
+plt.pie: cria o gráfico de pizza.
+
+sizes: tamanhos das fatias.
+
+explode: controla o destaque das fatias.
+
+labels: rótulos das fatias.
+
+autopct='%1.1f%%': exibe os valores percentuais em cada fatia.
+
+shadow=True: adiciona sombra ao gráfico.
+
+startangle=140: define o ângulo inicial do gráfico.
+
+plt.title: define o título do gráfico.
+
+plt.axis('equal'): ajusta a proporção para que o gráfico seja um círculo perfeito.
+
+plt.show: exibe o gráfico. Erro: falta os parênteses ().
